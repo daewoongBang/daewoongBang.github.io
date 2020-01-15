@@ -7,7 +7,7 @@ module.exports = {
   subtitle: 'Carpe diem!',
   copyright: '© All rights reserved.',
   disqusShortname: 'daewoong',
-  postsPerPage: 4,
+  postsPerPage: 5,
   googleAnalyticsId: 'UA-155111945-1',
   useKatex: false,
   menu: [
