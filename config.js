@@ -6,7 +6,7 @@ module.exports = {
   title: 'Daewoong Dev Blog',
   subtitle: 'Carpe diem!',
   copyright: '© All rights reserved.',
-  disqusShortname: '',
+  disqusShortname: 'daewoong',
   postsPerPage: 4,
   googleAnalyticsId: 'UA-155111945-1',
   useKatex: false,
