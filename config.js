@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'https://daewoong.netlify.com',
+  url: 'https://daewoongbang.github.io/',
   pathPrefix: '/',
   title: 'Daewoong Dev Blog',
   subtitle: 'Carpe diem!',
