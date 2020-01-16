@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Daewoong Dev Blog]]></title><description><![CDATA[Carpe diem!]]></description><link>https://daewoongbang.github.io/</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 15 Jan 2020 12:14:15 GMT</lastBuildDate><item><title><![CDATA[Gatsby로 Blog 만들기]]></title><description><![CDATA[Gatsby와 Github Page를 활용한 Blog 포스팅]]></description><link>https://daewoongbang.github.io//posts/blog/gatsby-blog</link><guid isPermaLink="false">https://daewoongbang.github.io//posts/blog/gatsby-blog</guid><pubDate>Wed, 15 Jan 2020 11:40:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;gatsby로-블로그-포스팅-시작하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gatsby%EB%A1%9C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%8F%AC%EC%8A%A4%ED%8C%85-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0&quot; aria-label=&quot;gatsby로 블로그 포스팅 시작하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Gatsby로 블로그 포스팅 시작하기.&lt;/h3&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Daewoong's Dev Blog]]></title><description><![CDATA[Carpe diem!]]></description><link>https://daewoongbang.github.io/</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 16 Jan 2020 02:36:33 GMT</lastBuildDate><item><title><![CDATA[Gatsby로 Blog 만들기]]></title><description><![CDATA[Gatsby와 Github Page를 활용한 Blog 포스팅]]></description><link>https://daewoongbang.github.io//posts/blog/gatsby-blog</link><guid isPermaLink="false">https://daewoongbang.github.io//posts/blog/gatsby-blog</guid><pubDate>Wed, 15 Jan 2020 11:40:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;gatsby와-github-page로-블로그-포스팅-시작하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gatsby%EC%99%80-github-page%EB%A1%9C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%8F%AC%EC%8A%A4%ED%8C%85-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0&quot; aria-label=&quot;gatsby와 github page로 블로그 포스팅 시작하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Gatsby와 Github Page로 블로그 포스팅 시작하기.&lt;/h3&gt;
 &lt;br&gt;
 &lt;p&gt;빠른 시작을 위해 Starter Library를 사용하였다.&lt;br&gt;
-많은 고민 끝에 고른 테마는 gatsby-starter-lumen&lt;/p&gt;
+많은 고민 끝에 고른 테마는 gatsby-starter-lumen&lt;br&gt;
+&lt;a href=&quot;https://www.gatsbyjs.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://www.gatsbyjs.org/&lt;/a&gt; 에서 Docs와 Tutorial, 테마 등 더 자세한 정보를 볼 수 있다.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Gatsby CLI 설치&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm install -g gatsby-cli
 혹은
@@ -11,16 +12,39 @@ yarn global add gatsby-cli&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 gatsby new gatsby-starter-lumen https://github.com/alxshelepenok/gatsby-starter-lumen&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;로컬에서 구동&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;cd gatsby-starter-lumen
-gatsby develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Gatsby 에 대한 정보는 아래 링크에서 자세히 볼 수 있다.&lt;br&gt;
-&lt;a href=&quot;https://www.gatsbyjs.org/docs/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://www.gatsbyjs.org/docs/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;master 브랜치는 build 결과물을 올리고
-development 브랜치에는 개발 중인 전체 코드를 올린다.&lt;br&gt;
-development 브랜치와 master 브랜치&lt;/p&gt;
-&lt;p&gt;package.json&lt;br&gt;
-gh-pages -d public -b master&lt;/p&gt;
-&lt;p&gt;yarn run deploy&lt;/p&gt;
-&lt;p&gt;disqus 기능 활성화&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Markdown Syntax]]></title><description><![CDATA[Markdown 기본 문법 및 사용 예시.]]></description><link>https://daewoongbang.github.io//posts/blog/markdown-syntax</link><guid isPermaLink="false">https://daewoongbang.github.io//posts/blog/markdown-syntax</guid><pubDate>Wed, 15 Jan 2020 06:42:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;1-제목header&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-%EC%A0%9C%EB%AA%A9header&quot; aria-label=&quot;1 제목header permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. 제목(Header)&lt;/h3&gt;
+gatsby develop 혹은 yarn run develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;서버가 구동이 되면&lt;br&gt;
+&lt;a href=&quot;http://localhost:8000/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;http://localhost:8000/&lt;/a&gt; 해당 주소에서 페이지를 확인해볼 수 있다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Github Page와 연동&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Github에서 username.github.io로 repository 생성.&lt;/li&gt;
+&lt;li&gt;개발 전체 코드는 &lt;code class=&quot;language-text&quot;&gt;development branch&lt;/code&gt;에 push한다.&lt;br&gt;
+(&lt;code class=&quot;language-text&quot;&gt;master branch&lt;/code&gt;에는 build 결과물이 올라간다.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;git init
+git checkout -b development
+git remote add origin https://github.com/daewoongBang/daewoongBang.github.io.git
+git add .
+git commit -m &amp;quot;init setting&amp;quot;
+git push origin development&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;package.json 에서 script 속성의 &lt;code class=&quot;language-text&quot;&gt;deploy&lt;/code&gt; value를 변경한다.&lt;br&gt;
+yarn run clean &amp;#x26;&amp;#x26; gatsby build &amp;#x26;&amp;#x26; &lt;code class=&quot;language-text&quot;&gt;gh-pages -d public -b master&lt;/code&gt;&lt;br&gt;
+(master branch에 build 결과물이 올라가도록 변경)&lt;/li&gt;
+&lt;li&gt;deploy를 실행하여 배포한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;yarn run deploy&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;정상적으로 배포가 되면 Github에서 생성한 repository 이름으로&lt;br&gt;
+아래와 같은 url형태로 접속이 가능하다.&lt;br&gt;
+&lt;a href=&quot;https://daewoongbang.github.io/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://daewoongbang.github.io/&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;정상적으로 페이지가 뜨는 것이 확인이 되면,&lt;br&gt;
+이제부턴 자기 것으로 커스터마이징하거나 기본 메타정보를 변경하면 된다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;기본적으로 &lt;code class=&quot;language-text&quot;&gt;config.json&lt;/code&gt;에서 author 정보, 사이트명, disqus 기능 활성화, 페이지당 포스트 수,&lt;br&gt;
+google Analytics, side menu 등을 수정할 수 있다.&lt;br&gt;
+&lt;code class=&quot;language-text&quot;&gt;google-site-verification&lt;/code&gt; 은 &lt;code class=&quot;language-text&quot;&gt;Layout.js&lt;/code&gt;에서 &lt;code class=&quot;language-text&quot;&gt;&amp;lt;Helmet&amp;gt;&lt;/code&gt; 태그 안에 &lt;code class=&quot;language-text&quot;&gt;meta&lt;/code&gt; 태그를 추가해주면 사이트 소유권 확인이 가능하다.&lt;/p&gt;
+&lt;hr&gt;</content:encoded></item><item><title><![CDATA[Markdown Syntax]]></title><description><![CDATA[Markdown 기본 문법 및 사용 예시.]]></description><link>https://daewoongbang.github.io//posts/blog/markdown-syntax</link><guid isPermaLink="false">https://daewoongbang.github.io//posts/blog/markdown-syntax</guid><pubDate>Wed, 15 Jan 2020 06:42:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;1-제목header&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-%EC%A0%9C%EB%AA%A9header&quot; aria-label=&quot;1 제목header permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. 제목(Header)&lt;/h3&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;h1&lt;/code&gt;부터 &lt;code class=&quot;language-text&quot;&gt;h6&lt;/code&gt;까지 표현할 수 있고, &lt;code class=&quot;language-text&quot;&gt;#&lt;/code&gt; 개수로 표현 가능하다.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;- 마크다운 작성 시&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# h1
