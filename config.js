@@ -3,7 +3,8 @@
 module.exports = {
   url: 'https://daewoongbang.github.io/',
   pathPrefix: '/',
-  title: 'Daewoong Dev Blog',
+  // eslint-disable-next-line quotes
+  title: "Daewoong's Dev Blog",
   subtitle: 'Carpe diem!',
   copyright: '© All rights reserved.',
   disqusShortname: 'daewoong',

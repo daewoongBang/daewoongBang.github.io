@@ -11,12 +11,13 @@ tags:
 description: 'Gatsby와 Github Page를 활용한 Blog 포스팅'
 ---
 
-### Gatsby로 블로그 포스팅 시작하기.
+### Gatsby와 Github Page로 블로그 포스팅 시작하기.
 
 <br>
 
 빠른 시작을 위해 Starter Library를 사용하였다.  
-많은 고민 끝에 고른 테마는 gatsby-starter-lumen
+많은 고민 끝에 고른 테마는 gatsby-starter-lumen  
+<https://www.gatsbyjs.org/> 에서 Docs와 Tutorial, 테마 등 더 자세한 정보를 볼 수 있다.
 
 **Gatsby CLI 설치**
 
@@ -37,19 +38,46 @@ gatsby new gatsby-starter-lumen https://github.com/alxshelepenok/gatsby-starter-
 
 ```
 cd gatsby-starter-lumen
-gatsby develop
+gatsby develop 혹은 yarn run develop
 ```
 
-Gatsby 에 대한 정보는 아래 링크에서 자세히 볼 수 있다.  
-<https://www.gatsbyjs.org/docs/>
+서버가 구동이 되면  
+http://localhost:8000/ 해당 주소에서 페이지를 확인해볼 수 있다.
 
-master 브랜치는 build 결과물을 올리고
-development 브랜치에는 개발 중인 전체 코드를 올린다.  
-development 브랜치와 master 브랜치
+**Github Page와 연동**
 
-package.json  
-gh-pages -d public -b master
+- Github에서 username.github.io로 repository 생성.
+- 개발 전체 코드는 `development branch`에 push한다.  
+  (`master branch`에는 build 결과물이 올라간다.)
 
+```
+git init
+git checkout -b development
+git remote add origin https://github.com/daewoongBang/daewoongBang.github.io.git
+git add .
+git commit -m "init setting"
+git push origin development
+```
+
+- package.json 에서 script 속성의 `deploy` value를 변경한다.  
+  yarn run clean && gatsby build && `gh-pages -d public -b master`  
+  (master branch에 build 결과물이 올라가도록 변경)
+
+- deploy를 실행하여 배포한다.
+
+```
 yarn run deploy
+```
 
-disqus 기능 활성화
+정상적으로 배포가 되면 Github에서 생성한 repository 이름으로  
+아래와 같은 url형태로 접속이 가능하다.  
+<https://daewoongbang.github.io/>
+
+- 정상적으로 페이지가 뜨는 것이 확인이 되면,  
+  이제부턴 자기 것으로 커스터마이징하거나 기본 메타정보를 변경하면 된다.
+
+기본적으로 `config.json`에서 author 정보, 사이트명, disqus 기능 활성화, 페이지당 포스트 수,  
+google Analytics, side menu 등을 수정할 수 있다.  
+`google-site-verification` 은 `Layout.js`에서 `<Helmet>` 태그 안에 `meta` 태그를 추가해주면 사이트 소유권 확인이 가능하다.
+
+---
