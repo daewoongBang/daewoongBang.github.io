@@ -15,9 +15,10 @@ description: 'Gatsby와 Github Page를 활용한 Blog 포스팅'
 
 <br>
 
-빠른 시작을 위해 Starter Library를 사용하였다.  
-많은 고민 끝에 고른 테마는 gatsby-starter-lumen  
-<https://www.gatsbyjs.org/> 에서 Docs와 Tutorial, 테마 등 더 자세한 정보를 볼 수 있다.
+어떤 곳에서 블로그를 시작할까 고민하던 중 정적 사이트 생성기(Static Site Generator)라는 것을 알게되었는데, 그 중 많이 알려진 것이 Jekyll과 Gatsby였다.  
+Jekyll은 Ruby 기반이고 Gatsby는 React 기반인데 개인적으로는 React가 익숙하여 Gatsby로 블로그를 시작하기로 결정했다.  
+빠른 시작을 위해 **Starter Library**를 사용하였고 많은 고민 끝에 고른 테마는 **gatsby-starter-lumen**.  
+사용법과 같은 자세한 정보는 <https://www.gatsbyjs.org/> 에서 볼 수 있다. (Docs와 Tutorial, 테마 등)
 
 **Gatsby CLI 설치**
 
