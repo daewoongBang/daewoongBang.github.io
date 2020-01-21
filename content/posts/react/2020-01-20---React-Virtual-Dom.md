@@ -1,5 +1,5 @@
 ---
-title: React Virtual DOM
+title: Virtual DOM 이란?
 date: '2020-01-20 14:18:00'
 template: 'post'
 draft: false
@@ -9,7 +9,7 @@ tags:
   - 'React'
   - 'DOM'
   - 'Virtual DOM'
-description: 'DOM과 React Virtual DOM의 기본 개념'
+description: 'DOM의 기본 개념과 React에서의 Virtual DOM의 이해'
 socialImage: ''
 ---
 
