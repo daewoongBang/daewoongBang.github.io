@@ -170,7 +170,7 @@ _기울여 쓰기_
 **- 마크다운 작성 시**
 
 ````
-```
+```javascript
 let sum = (a, b) => {
     return a + b;
 }
@@ -179,10 +179,10 @@ let sum = (a, b) => {
 
 **- 결과**
 
-```
+```javascript
 let sum = (a, b) => {
-    return a + b;
-}
+  return a + b;
+};
 ```
 
 ### 8. 링크

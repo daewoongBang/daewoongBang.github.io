@@ -23,15 +23,15 @@ module.exports = {
     {
       label: 'Tags',
       path: '/tags'
-    },
-    {
-      label: 'About me',
-      path: '/pages/about'
-    },
-    {
-      label: 'Contact me',
-      path: '/pages/contacts'
     }
+    // {
+    //   label: 'About me',
+    //   path: '/pages/about'
+    // },
+    // {
+    //   label: 'Contact me',
+    //   path: '/pages/contacts'
+    // }
   ],
   author: {
     name: 'Daewoong Bang',
