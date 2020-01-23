@@ -214,6 +214,8 @@ const Say = () => {
 
 state 값을 바꾸어야 할 때는 `setState` 혹은 `useState`를 통해 전달받은 setter 함수를 사용해야 한다.
 
+<hr>
+
 참고: 리액트 공식 문서
 
 - Components and Props  

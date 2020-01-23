@@ -48,5 +48,9 @@ React에서 데이터가 변하여 실제 DOM을 업데이트할 경우 절차�
 2. 이전 Virtual DOM에 있던 내용과 현재 내용을 비교한다.
 3. 바뀐 부분만 실제 DOM에 적용한다.
 
-react and the virtual dom 에 관한 짧은 영상 (한글자막 제공)  
-<https://www.youtube.com/watch?v=muc2ZF0QIO4&feature=youtu.be>
+<hr>
+
+참고
+
+- react and the virtual dom 에 관한 짧은 영상 (한글자막 제공)  
+  <https://www.youtube.com/watch?v=muc2ZF0QIO4&feature=youtu.be>
