@@ -22,7 +22,7 @@ React를 사용하여 애플리케이션의 인터페이스를 설계할 때는 
 
 예를 들어 아래와 같은 [**Todo List App**](https://daewoongbang.github.io/mashup-todolist/)을 만든다고 하면,
 
-<img src="/images/react/mashup-todolist-ui.png" width="350" height="521" alt="mashup-todolist ui">
+<img src="/media/react/mashup-todolist-ui.png" width="350" height="521" alt="mashup-todolist ui">
 
 **Component**는 다음과 같이 분리할 수 있다.
 
