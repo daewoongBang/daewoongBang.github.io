@@ -8,8 +8,8 @@ category: 'React'
 tags:
   - 'React'
   - 'Component'
-  - Props
-  - State
+  - 'Props'
+  - 'State'
 description: 'Component, Props, State'
 socialImage: ''
 ---
@@ -56,7 +56,7 @@ Todo List App 코드는 아래 링크에서 확인 가능하다.
 <https://github.com/daewoongBang/mashup-todolist>
 
 그렇다면 Component는 어떻게 작성할까?  
-Component를 선언하는 방식은 클래스형과 함수형 두 가지가 있으며 다음과 같은 차이가 있다.
+Component를 선언하는 방식은 **클래스형**과 **함수형** 두 가지가 있으며 다음과 같은 차이가 있다.
 
 ### 클래스형 Component
 
