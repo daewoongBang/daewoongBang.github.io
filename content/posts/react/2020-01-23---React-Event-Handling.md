@@ -18,7 +18,7 @@ React에서 Event를 처리하는 방식은 HTML DOM Element에서 Event를 처�
 
 아래 코드를 보면,
 
-```javascript
+```jsx
 const Say = () => {
   const [message, setMessage] = useState('');
   const onClickEnter = () => setMessage('HI!');
@@ -40,7 +40,7 @@ const Say = () => {
   ( `onClick={onClickLeave}` )
 - false를 반환해도 event의 기본 동작을 방지할 수 없다. _**반드시 `preventDefault`를 명시적으로 호출해야 한다**_.
 
-```javascript
+```jsx
 const ActionLink = () => {
   const handleClick = e => {
     // e 객체는 합성 이벤트(SyntheticEvent)로 웹 브라우저의 네이티브 이벤트를 감싸는 객체
@@ -61,7 +61,9 @@ const ActionLink = () => {
 
 <hr>
 
-참고: 리액트 공식 문서
+**reference:**
+
+##### 리액트 공식 문서
 
 - 이벤트 처리하기  
   <https://ko.reactjs.org/docs/handling-events.html>

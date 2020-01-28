@@ -50,7 +50,7 @@ React에서 데이터가 변하여 실제 DOM을 업데이트할 경우 절차�
 
 <hr>
 
-참고
+**reference:**
 
 - react and the virtual dom 에 관한 짧은 영상 (한글자막 제공)  
   <https://www.youtube.com/watch?v=muc2ZF0QIO4&feature=youtu.be>

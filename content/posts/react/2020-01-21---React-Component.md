@@ -60,7 +60,7 @@ Component를 선언하는 방식은 **클래스형**과 **함수형** 두 가지
 
 ### 클래스형 Component
 
-```javascript
+```jsx
 class App extends Component {
   render() {
     const name = 'daewoong';
@@ -74,7 +74,7 @@ class App extends Component {
 
 ### 함수형 Component
 
-```javascript
+```jsx
 const App = () => {
   const name = 'daewoong';
   return <div>{name}</div>;
@@ -95,13 +95,13 @@ props는 `properties`를 줄인 표현으로 상위 Component가 하위 Componen
 
 **App Component**에서 **name** 속성을 설정하여 **MyComponent**가 해당 값을 받는다고 하면 아래와 같이 작성할 수 있다.
 
-```javascript
+```jsx
 const App = () => {
   return <MyComponent name="daewoong" />;
 };
 ```
 
-```javascript
+```jsx
 const MyComponent = props => {
   return (
     <div>
@@ -113,7 +113,7 @@ const MyComponent = props => {
 
 name 값을 ES6의 **비구조화 할당** 문법을 사용하여 아래와 같이 받을 수도 있다.
 
-```javascript
+```jsx
 const MyComponent = ({ name }) => {
   return (
     <div>
@@ -125,7 +125,7 @@ const MyComponent = ({ name }) => {
 
 name 값을 지정하지 않았을 경우 **defaultProps**로 기본값을 설정할 수 있다.
 
-```javascript
+```jsx
 const MyComponent = props => {
   return (
     <div>
@@ -142,13 +142,13 @@ MyComponent.defaultProps = {
 
 Component 태그 사이의 내용을 보여주는 props를 **children** 이라고 한다.
 
-```javascript
+```jsx
 const App = () => {
   return <MyComponent>daewoong</MyComponent>;
 };
 ```
 
-```javascript
+```jsx
 const MyComponent = props => {
   return (
     <div>
@@ -170,7 +170,7 @@ React에서는 두 가지 종류의 state가 있는데 하나는 클래스형 Co
 
 ### 클래스형 Component에서 state 사용
 
-```javascript
+```jsx
 class Counter extends Component {
   state = {
     number: 0
@@ -196,7 +196,7 @@ class Counter extends Component {
 
 ### 함수형 Component에서 useState 사용
 
-```javascript
+```jsx
 const Say = () => {
   const [message, setMessage] = useState('');
   const onClickEnter = () => setMessage('HI!');
@@ -216,7 +216,9 @@ state 값을 바꾸어야 할 때는 `setState` 혹은 `useState`를 통해 전�
 
 <hr>
 
-참고: 리액트 공식 문서
+**reference:**
+
+##### 리액트 공식 문서
 
 - Components and Props  
   <https://ko.reactjs.org/docs/components-and-props.html>
