@@ -118,7 +118,7 @@
   Link: </styles-117479406f6e61ad4793.js>; rel=preload; as=script
   Link: </commons-7a997fda0989978adb31.js>; rel=preload; as=script
   Link: </component---src-templates-post-template-js-e6069a5bcbe9b1f9a8eb.js>; rel=preload; as=script
-/posts/react/react-event-handling
+/posts/react/react-jsx
   Link: </webpack-runtime-4bc9bee8d2c33d99136b.js>; rel=preload; as=script
   Link: </styles-117479406f6e61ad4793.js>; rel=preload; as=script
   Link: </commons-7a997fda0989978adb31.js>; rel=preload; as=script
@@ -127,7 +127,7 @@
   Link: </styles-117479406f6e61ad4793.js>; rel=preload; as=script
   Link: </commons-7a997fda0989978adb31.js>; rel=preload; as=script
   Link: </component---src-templates-post-template-js-e6069a5bcbe9b1f9a8eb.js>; rel=preload; as=script
-/posts/react/react-jsx
+/posts/react/react-event-handling
   Link: </webpack-runtime-4bc9bee8d2c33d99136b.js>; rel=preload; as=script
   Link: </styles-117479406f6e61ad4793.js>; rel=preload; as=script
   Link: </commons-7a997fda0989978adb31.js>; rel=preload; as=script
@@ -145,7 +145,7 @@
   Link: </styles-117479406f6e61ad4793.js>; rel=preload; as=script
   Link: </commons-7a997fda0989978adb31.js>; rel=preload; as=script
   Link: </component---src-templates-post-template-js-e6069a5bcbe9b1f9a8eb.js>; rel=preload; as=script
-/posts/blog/markdown-syntax
+/posts/blog/gatsby-blog
   Link: </webpack-runtime-4bc9bee8d2c33d99136b.js>; rel=preload; as=script
   Link: </styles-117479406f6e61ad4793.js>; rel=preload; as=script
   Link: </commons-7a997fda0989978adb31.js>; rel=preload; as=script
@@ -154,7 +154,7 @@
   Link: </styles-117479406f6e61ad4793.js>; rel=preload; as=script
   Link: </commons-7a997fda0989978adb31.js>; rel=preload; as=script
   Link: </component---src-templates-post-template-js-e6069a5bcbe9b1f9a8eb.js>; rel=preload; as=script
-/posts/blog/gatsby-blog
+/posts/blog/markdown-syntax
   Link: </webpack-runtime-4bc9bee8d2c33d99136b.js>; rel=preload; as=script
   Link: </styles-117479406f6e61ad4793.js>; rel=preload; as=script
   Link: </commons-7a997fda0989978adb31.js>; rel=preload; as=script
