@@ -103,7 +103,7 @@ const content = posts.map(post => (
 
 ##### MDN web docs
 
-- 자바스크립트 Array map()
+- 자바스크립트 Array map()  
   <https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/map>
 
 ##### etc
