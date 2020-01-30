@@ -40,7 +40,7 @@ pre[class*='language-'] {
   color: #6d6d6d;
 }
 pre[class*='language-'] {
-  background-color: #1b2338;
+  background-color: rgb(40, 44, 52);
 }
 :not(pre) > code[class*='language-'] {
   padding: 0.1em;

@@ -44,6 +44,15 @@ socialImage: ''
 
 컴포넌트를 다 만들고, 첫 렌더링을 다 마친 후 실행. 이 안에서 다른 자바스크립트 라이브러리 또는 프레임워크 함수를 호출하거나 이벤트 등록, setTimeout, setInterval, 네트워크 요청 같은 비동기 작업을 처리하면 된다.
 
+```jsx
+componentDidMount() {
+    this.timerID = setInterval(
+        () => this.tick(),
+        1000
+    );
+}
+```
+
 #### 5. shouldComponentUpdate
 
 props 또는 state를 변경했을 때, 리렌더링을 시작할지 여부를 지정하는 메서드. 이 메서드에서는 반드시 `true`나 `false` 값을 반환해야 한다. 이 메서드를 따로 생성하지 않으면 기본적으로 언제나 true 값을 반환한다. 만약 false 값을 반환한다면 업데이트 과정은 여기서 중지된다. 프로젝트 성능을 최적화할 때, 상황에 맞는 알고리즘을 작성하여 리렌더링을 방지할 때는 false 값을 반환하게 한다.
@@ -59,6 +68,12 @@ props 또는 state를 변경했을 때, 리렌더링을 시작할지 여부를 �
 #### 8. componentWillUnmount
 
 컴포넌트를 DOM에서 제거할 때 실행한다. componentDidMount에서 등록한 이벤트, 타이머, 직접 생성한 DOM이 있다면 여기서 제거 작업을 해야 한다.
+
+```jsx
+componentWillUnmount() {
+    clearInterval(this.timerID);
+}
+```
 
 #### 9. componentDidCatch
 
