@@ -9,15 +9,17 @@
 <url> <loc>https://daewoongbang.github.io/posts/react/react-component</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://daewoongbang.github.io/posts/react/react-jsx</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://daewoongbang.github.io/posts/react/react-ref</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://daewoongbang.github.io/posts/react/react-list-and-key</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://daewoongbang.github.io/posts/react/react-hook-1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://daewoongbang.github.io/posts/react/react-hook-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://daewoongbang.github.io/posts/react/react-life-cycle</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://daewoongbang.github.io/posts/react/react-immutability</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://daewoongbang.github.io/posts/react/react-list-and-key</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://daewoongbang.github.io/posts/react/react-context</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://daewoongbang.github.io/posts/react/react-hook-1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://daewoongbang.github.io/posts/blog/markdown-syntax</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://daewoongbang.github.io/posts/react/react-immutability</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://daewoongbang.github.io/posts/blog/gatsby-blog</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://daewoongbang.github.io/tag/blog</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://daewoongbang.github.io/tag/component</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://daewoongbang.github.io/tag/context</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://daewoongbang.github.io/tag/dom</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://daewoongbang.github.io/tag/event-handling</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://daewoongbang.github.io/tag/gatsby</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -27,6 +29,7 @@
 <url> <loc>https://daewoongbang.github.io/tag/props</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://daewoongbang.github.io/tag/react</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://daewoongbang.github.io/tag/react/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://daewoongbang.github.io/tag/react/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://daewoongbang.github.io/tag/state</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://daewoongbang.github.io/tag/virtual-dom</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://daewoongbang.github.io/tag/hook</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -43,6 +46,7 @@
 <url> <loc>https://daewoongbang.github.io/category/blog</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://daewoongbang.github.io/category/react</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://daewoongbang.github.io/category/react/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://daewoongbang.github.io/category/react/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://daewoongbang.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://daewoongbang.github.io/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://daewoongbang.github.io/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
