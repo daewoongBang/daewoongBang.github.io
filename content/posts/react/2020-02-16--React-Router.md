@@ -14,7 +14,9 @@ socialImage: ''
 
 ## React Router란 뭘까?
 
-Router에 대해서 이야기하기 전에 **SPA**가 무엇인지에 대해 알아야 한다. **SPA**는 **Single Page Application**의 약어로 한 개의 페이지로 이루어진 애플리케이션이다. 이 말이 의미하는 바는 뭘까?
+다른 주소에 다른 화면을 보여 주는 것을 **라우팅**이라 하고 **React Router**는 클라이언트 사이드에서 URL 값에 따른 View를 제공하기 위한 라이브러리이다. 리액트 라이브러리 자체에 이 기능이 내장되어 있는 것은 아니고 별도 라이브러리를 사용하여 작업을 쉽게 구현할 수 있다. 리액트 라우팅 라이브러리는 react-router, reach-router, Next.js 등 여러가지가 있다.
+
+일단 Router에 대해서 이야기하기 전에 **SPA**가 무엇인지에 대해 알고 가도록 하자. **SPA**는 **Single Page Application**의 약어로 한 개의 페이지로 이루어진 애플리케이션이다. 이 말이 의미하는 바는 뭘까?
 
 전통적인 웹 페이지는 한 개가 아닌 여러 페이지로 구성되어 있다. 여러 페이지로 구성되어 있다는 것은 사용자가 다른 페이지로 이동을 할 때마다 새로운 html을 받아 온다는 것이고, 페이지를 로딩할 때마다 서버에서 리소스를 전달받아 해석한 뒤 화면에 보여준다는 것이다.
 
@@ -30,8 +32,6 @@ Router에 대해서 이야기하기 전에 **SPA**가 무엇인지에 대해 알
 이 같은 문제를 개선하고자 리액트 같은 라이브러리 혹은 프레임워크를 사용하여 **뷰 렌더링을 사용자의 브라우저가 담당하도록 하고, 애플리케이션을 브라우저에 불러와서 실행시킨 후에 사용자와의 인터랙션이 발생하면 필요한 부분만 자바스크립트를 사용하여 업데이트 해준다.** 만약 새로운 데이터가 필요하다면 서버 API를 호출하여 필요한 데이터만 새로 불러와 애플리케이션에서 사용할 수도 있다.
 
 리액트 라우터처럼 브라우저에서 자바스크립트를 사용하여 라우팅을 관리하는 것은 자바스크립트를 실행하지 않는 일반 크롤러에서는 페이지의 정보를 제대로 수집해 가지 못한다. 또한, 자바스크립트가 실행될 때까지 페이지가 비어 있기 때문에 자바스크립트 파일이 로딩되어 실행되는 짧은 시간 동안 빈 페이지가 나타날 수 있다. 이러한 문제점들은 **서버 사이드 렌더링**을 통해 모두 해결할 수 있다.
-
-**다른 주소에 다른 화면을 보여 주는 것을 라우팅이라 하고 React Router는 클라이언트 사이드에서 URL 값에 따른 View를 제공하기 위한 라이브러리이다.** 리액트 라이브러리 자체에 이 기능이 내장되어 있는 것은 아니고 별도 라이브러리를 사용하여 작업을 쉽게 구현할 수 있다. 리액트 라우팅 라이브러리는 react-router, reach-router, Next.js 등 여러가지가 있다.
 
 리액트 라우터는 클라이언트 사이드에서 이루어지는 라우팅을 아주 간단하게 구현할 수 있도록 도와준다.
 
@@ -356,31 +356,257 @@ export default About;
 
 서브 라우트는 라우트 내부에 또 라우트를 정의하는 것을 의미한다. 작성은 그냥 라우트로 사용되고 있는 컴포넌트 내부에 Route 컴포넌트를 또 사용하면 된다.
 
-Member.js
+Members.js
 
 ```jsx
-const Member = () => {
-  return <div>사용자 목록</div>;
+import React from 'react';
+import { Link, Route } from 'react-router-dom';
+import Member from './Member';
+
+const Members = () => {
+  return (
+    <div>
+      <h3>Member 목록</h3>
+      <ul>
+        <li>
+          <Link to="/members/daewoong">daewoong</Link>
+        </li>
+        <li>
+          <Link to="/members/gildong">gildong</Link>
+        </li>
+      </ul>
+
+      {/* component가 아니라 render props로 보여 주고 싶은 JSX를 넣어줄 수 있다.
+          JSX에서 props를 설정할 때 값을 생략하면 자동으로 true로 설정된다.
+          exact 라고만 적으면 exact={true}와 같은 의미이다.
+      */}
+      <Route
+        path="/members"
+        exact
+        render={() => <div>member를 선택해주세요.</div>}
+      />
+      <Route path="/members/:username" component={Member} />
+    </div>
+  );
 };
+
+export default Members;
 ```
 
-### 리액트 라우터 부가 기능
+App.js
 
-**history**
+```jsx
+import React from 'react';
+import { Route, Link } from 'react-router-dom';
+import Home from './page/Home';
+import About from './page/About';
+import Members from './page/Members';
+
+function App() {
+  return (
+    <div>
+      <ul>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/about">About</Link>
+        </li>
+        <li>
+          <Link to="/info">Info</Link>
+        </li>
+        <li>
+          <Link to="/members">Members</Link>
+        </li>
+      </ul>
+      <hr />
+      <Route path="/" component={Home} exact={true} />
+      <Route path={['/about', '/info']} component={About} />
+      <Route path="/members" component={Members} />
+    </div>
+  );
+}
+
+export default App;
+```
+
+<br>
+
+## 리액트 라우터 부가 기능
+
+### history
 
 history 객체는 라우트로 사용된 컴포넌트에 match, location과 함께 전달되는 props 중 하나로, 이 객체를 통해 컴포넌트 내에 구현하는 메서드에서 라우터 API를 호출할 수 있다. 예를 들어 뒤로 가거나, 로그인 후 화면을 전환하거나, 다른 페이지로 이탈하는 것을 방지해야 할 때 history를 활용할 수 있다.
 
-**withRouter**
+```jsx
+import React, { useEffect } from 'react';
+import { useHistory } from 'react-router-dom';
+
+const HistorySample = () => {
+  const history = useHistory();
+
+  // 뒤로 가기
+  const handleGoBack = () => {
+    history.goBack();
+  };
+
+  // Home으로 이동
+  const handleGoHome = () => {
+    history.push('/');
+  };
+
+  useEffect(() => {
+    // 페이지에 변화가 생기려고 할 때마다 질문함
+    const unblock = history.block('나가시겠습니까?');
+    return () => {
+      if (unblock) unblock();
+    };
+  }, [history]);
+
+  return (
+    <div>
+      <button onClick={handleGoBack}>뒤로</button>
+      <button onClick={handleGoHome}>홈으로</button>
+    </div>
+  );
+};
+
+export default HistorySample;
+```
+
+### withRouter
 
 withRouter 함수는 HoC(Higher-order Component)이다. 라우트로 사용된 컴포넌트가 아니어도 match, location, history 객체를 접근할 수 있게 해준다.
 
-**Switch**
+```jsx
+import React from 'react';
+import { withRouter } from 'react-router-dom';
+
+const WithRouterSample = ({ location, match, history }) => {
+  return (
+    <div>
+      <h4>location</h4>
+      {/* JSON.stringify의 두 번째, 세 번째 파라미터를 null, 2로 설정해 주면 
+          JSON에 들여쓰기가 적용된 상태로 문자열이 만들어진다. */}
+      <textarea
+        value={JSON.stringify(location, null, 2)}
+        rows={7}
+        readOnly={true}
+      />
+      <h4>match</h4>
+      <textarea
+        value={JSON.stringify(match, null, 2)}
+        rows={7}
+        readOnly={true}
+      />
+      <button onClick={() => history.push('/')}>Home</button>
+    </div>
+  );
+};
+
+// withRouter를 사용하면 현재 자신을 보여 주고 있는 라우트 컴포넌트를 기준으로 match가 전달된다.
+// ex) member 컴포넌트에서 WithRouterSample import 시 해당 컴포넌트를 기준으로 match 전달.
+export default withRouter(WithRouterSample);
+```
+
+### Switch
 
 Switch 컴포넌트는 여러 Route를 감싸서 그 중 일치하는 단 하나의 라우트만을 렌더링시켜 준다. Switch를 사용하면 모든 규칙과 일치하지 않을 때 보여줄 Not Found 페이지도 구현할 수 있다.
 
-**NavLink**
+```jsx
+import React from 'react';
+import { Route, Link, Switch } from 'react-router-dom';
+import Home from './page/Home';
+import About from './page/About';
+import Members from './page/Members';
+import HistorySample from './page/HistorySample';
 
-NavLink는 Link와 비슷하다. 현재 경로와 Link에서 사용하는 경로가 일치하는 경우 특정 스타일 혹은 CSS 클래스를 적용할 수 있는 컴포넌트이다.
+function App() {
+  return (
+    <div>
+      <ul>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/about">About</Link>
+        </li>
+        <li>
+          <Link to="/info">Info</Link>
+        </li>
+        <li>
+          <Link to="/members">Members</Link>
+        </li>
+        <li>
+          <Link to="/history">History 예제</Link>
+        </li>
+      </ul>
+      <hr />
+      <Switch>
+        <Route path="/" component={Home} exact={true} />
+        <Route path={['/about', '/info']} component={About} />
+        <Route path="/members" component={Members} />
+        <Route path="/history" component={HistorySample} />
+        <Route
+          // path를 따로 정의하지 않으면 모든 상황에 렌더링됨
+          render={({ location }) => (
+            <div>
+              <h2>이 페이지는 존재하지 않습니다.</h2>
+              <p>{location.pathname}</p>
+            </div>
+          )}
+        />
+      </Switch>
+    </div>
+  );
+}
+
+export default App;
+```
+
+### NavLink
+
+NavLink는 Link와 비슷하다. 현재 경로와 Link에서 사용하는 경로가 일치하는 경우 특정 스타일 혹은 CSS 클래스를 적용할 수 있는 컴포넌트이다. NavLink에서 링크가 활성화되었을 때의 스타일을 적용할 때는 activeStyle 값을, css 클래스를 적용할 때는 activeClassName 값을 props로 넣어 주면 된다.
+
+아래는 Link 대신 NavLink를 사용하여 현재 선택되어 있는 경우 검정색 배경에 흰색 글씨로 스타일을 수정하는 코드이다.
+
+```jsx
+import React from 'react';
+import { NavLink, Route } from 'react-router-dom';
+import Member from './Member';
+
+const Members = () => {
+  const activeStyle = {
+    background: 'black',
+    color: 'white'
+  };
+  return (
+    <div>
+      <h3>Member 목록</h3>
+      <ul>
+        <li>
+          <NavLink activeStyle={activeStyle} to="/members/daewoong">
+            daewoong
+          </NavLink>
+        </li>
+        <li>
+          <NavLink activeStyle={activeStyle} to="/members/gildong">
+            gildong
+          </NavLink>
+        </li>
+      </ul>
+      <Route
+        path="/members"
+        exact
+        render={() => <div>member를 선택해주세요.</div>}
+      />
+      <Route path="/members/:username" component={Member} />
+    </div>
+  );
+};
+
+export default Members;
+```
 
 <hr>
 
