@@ -20,9 +20,11 @@ const Post = ({ post }: Props) => {
 
   return (
     <div className={styles['post']}>
-      <Link className={styles['post__home-button']} to="/">
-        All Posts
-      </Link>
+      <div className="home_button">
+        <Link className={styles['post__home-button']} to="/">
+          All Posts
+        </Link>
+      </div>
 
       <div className={styles['post__content']}>
         <Content body={html} title={title} />
