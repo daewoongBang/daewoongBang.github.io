@@ -1,5 +1,6 @@
 // @flow strict
 import React from 'react';
+import Topbar from '../components/Topbar';
 import Sidebar from '../components/Sidebar';
 import Layout from '../components/Layout';
 import Page from '../components/Page';
@@ -10,6 +11,7 @@ const NotFoundTemplate = () => {
 
   return (
     <Layout title={`Not Found - ${title}`} description={subtitle}>
+      <Topbar />
       <Sidebar />
       <Page title="NOT FOUND">
         <p>페이지를 찾을 수 없습니다.</p>

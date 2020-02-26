@@ -2,6 +2,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import kebabCase from 'lodash/kebabCase';
+import Topbar from '../components/Topbar';
 import Sidebar from '../components/Sidebar';
 import Layout from '../components/Layout';
 import Page from '../components/Page';
@@ -13,10 +14,11 @@ const CategoriesListTemplate = () => {
 
   return (
     <Layout title={`Categories - ${title}`} description={subtitle}>
+      <Topbar />
       <Sidebar />
       <Page title="Categories">
         <ul>
-          {categories.map((category) => (
+          {categories.map(category => (
             <li key={category.fieldValue}>
               <Link to={`/category/${kebabCase(category.fieldValue)}/`}>
                 {category.fieldValue} ({category.totalCount})

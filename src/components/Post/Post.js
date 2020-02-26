@@ -30,14 +30,18 @@ const Post = ({ post }: Props) => {
         <Content body={html} title={title} />
       </div>
 
-      <div className={styles['post__footer']}>
-        <Meta date={date} />
-        {tags && tagSlugs && <Tags tags={tags} tagSlugs={tagSlugs} />}
-        <Author />
+      <div className="post_footer">
+        <div className={styles['post__footer']}>
+          <Meta date={date} />
+          {tags && tagSlugs && <Tags tags={tags} tagSlugs={tagSlugs} />}
+          <Author />
+        </div>
       </div>
 
-      <div className={styles['post__comments']}>
-        <Comments postSlug={slug} postTitle={post.frontmatter.title} />
+      <div className="post_comments">
+        <div className={styles['post__comments']}>
+          <Comments postSlug={slug} postTitle={post.frontmatter.title} />
+        </div>
       </div>
     </div>
   );
